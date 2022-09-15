@@ -8,7 +8,7 @@ const rutas_init = () => {
     router.use("/health", healthRoutes)
     router.use("/citizens", citizensRoutes) 
 
-    return router 
+    return router
   };
   
   module.exports = { rutas_init }
