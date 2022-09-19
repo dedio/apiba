@@ -1,5 +1,6 @@
 module.exports = {
     funcional: async (req, res) => {
+    
         let country = req.query.country
         let docNumber = req.query.docNumber
         let docType = req.query.docType
