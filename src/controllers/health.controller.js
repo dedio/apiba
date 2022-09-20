@@ -1,8 +1,6 @@
 module.exports = {
-    funcional: async (req, res) => {
+    funcional: async (req, res, err) => {
         try {
-            console.log('Estado funcional')
-
             res.json({
                 status: "healthy"
             })

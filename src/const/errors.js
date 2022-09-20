@@ -25,5 +25,4 @@ module.exports = {
         error: "Bad Request",
         message: "A required field is missing"
     }
-
 }
