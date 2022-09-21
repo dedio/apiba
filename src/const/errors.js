@@ -13,7 +13,7 @@ const formatDate = (date) => {
     if (day.length < 2) {
       day = '0' + day;
     }
-    //return [year, month, day, hours].join('-');
+  
     return year + '-' + month + '-' + day + 'T' + hours + ':' + minutes + ':' + seconds + '.' + milseconds;
 }
 
