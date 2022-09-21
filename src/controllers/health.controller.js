@@ -6,8 +6,8 @@ method: 'get',
   url: 'https://3whl0d5nm4.execute-api.us-east-1.amazonaws.com/v1/citizens',
   headers: { },
   auth: {
-    'AWS_ACCESS_KEY_ID': 'AKIA4UCN2ZIJRCREIDIS',
-    'secretAccessKey': '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'
+    'AWS_ACCESS_KEY_ID': '',
+    'secretAccessKey': ''
   }
 };
 
