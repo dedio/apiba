@@ -1,15 +1,5 @@
-
 var axios = require('axios');
-
-var config = {
-method: 'get',
-  url: 'https://3whl0d5nm4.execute-api.us-east-1.amazonaws.com/v1/citizens',
-  headers: { },
-  auth: {
-    'AWS_ACCESS_KEY_ID': '',
-    'secretAccessKey': ''
-  }
-};
+const { config } = require('../middlewares/aws')
 
 module.exports = {
     funcional: async (req, res, err) => {
