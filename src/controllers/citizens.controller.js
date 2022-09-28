@@ -10,6 +10,16 @@ module.exports = {
             docType: req.query.docType,
             gender: req.query.gender
         }
+        aws['conf_citizens'].url.concat(
+            '?country=',
+            req.query.country,
+            '&docNumber=',
+            req.query.docNumber,
+            '&docType=',
+            req.query.docType,
+            '&gender=',
+            req.query.gender
+        )
         try {
             console.log(aws['conf_citizens'])
             axios(aws['conf_citizens'])
